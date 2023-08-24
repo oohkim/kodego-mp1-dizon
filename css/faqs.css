@@ -468,7 +468,6 @@ img {
     .image-box {
         height: 25vh;
     }
-
 }
 
 @media (max-width: 994px) {
@@ -479,7 +478,7 @@ img {
         max-width: 100%;
         padding: 45px 60px 45px 60px;
     }
-    .accordion .image-box {
+    .accordion .imagebox-accordion {
         height: 360px;
         width: 220px;
     }
