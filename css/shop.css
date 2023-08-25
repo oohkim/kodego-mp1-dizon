@@ -377,6 +377,24 @@ nav.navbar a.active {
     transform: scale(1.5);
 }
 
+@media (max-width: 576px) {
+    .product-container div.dropdown-sortby {
+        position: absolute;
+        top: 0; 
+        left: 65%;
+        margin: 0;
+    }
+}
+
+@media (max-width: 535px) {
+    .product-container div.dropdown-sortby {
+        position: absolute;
+        top: 0; 
+        left: 60%;
+        margin: 0;
+    }
+}
+
 /* Icons on the imgBx */
 
 .action {
