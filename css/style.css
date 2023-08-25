@@ -504,6 +504,10 @@ a.price {
     }
     .type a {
         padding-right: 0px;
+        font-size: 12px;
+    }
+    .type span {
+        font-size: 12px;
     }
 }
 
