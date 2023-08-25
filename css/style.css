@@ -293,6 +293,36 @@ nav.navbar a.active {
         padding: 10px;
     }
 }
+@media (max-width: 500px) {
+    .carousel-caption p {
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    .carousel-caption h1.display-2 {
+        font-size: 40px;
+        margin-top: 10px;
+    }
+    .carousel-caption button {
+        margin-top: 10px;
+        padding: 10px;
+    }
+}
+
+@media (max-width: 499px) {
+    .carousel-caption p {
+        margin-top: 40px;
+        font-size: 15px;
+    }
+    .carousel-caption h1.display-2 {
+        font-size: 30px;
+        margin-top: 10px;
+    }
+    .carousel-caption button {
+        margin-top: 10px;
+        padding: 5px;
+        font-size: 15px;
+    }
+}
 
 /* Owl Carousel */
 
