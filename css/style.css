@@ -497,6 +497,34 @@ a.price {
     }
 }
 
+@media (max-width: 769px) {
+    .slide-img {
+        height: auto;
+        position: relative;
+    }
+    .type a {
+        padding-right: 0px;
+    }
+}
+
+@media (max-width: 454px) {
+    .slide-img {
+        height: auto;
+        position: relative;
+    }
+    .type a {
+        padding-right: 0px;
+    }
+    .detail-box {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        /* padding: 10px 20px; */
+        box-sizing: border-box;
+    }
+}
+
 /* Footer */
 
 footer {
